@@ -1,7 +1,7 @@
 # 📈 Task 5: Sales Prediction Using Python
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://oibsip-sales-prediction-yash.streamlit.app)  
-🌐 **Live Web Application:** [https://oibsip-sales-prediction-yash.streamlit.app](https://oibsip-sales-prediction-yash.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://oibsip-sales-prediction-yash.streamlit.app/)  
+🌐 **Live Web Application:** [https://oibsip-sales-prediction-yash.streamlit.app/](https://oibsip-sales-prediction-yash.streamlit.app/)
 
 **Oasis Infobyte — SIP (Student Internship Program)**  
 * **Intern Name:** Yash Devidas Chaudhari  
