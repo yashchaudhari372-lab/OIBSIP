@@ -9,7 +9,7 @@
 * **Offer Letter ID:** OIB/N2/IP5780  
 * **Repository:** `OIBSIP`  
 * **Folder Name:** `DataScience-Task4-EmailSpamDetection`  
-* **Live Link:** https://oibsip-spam-detection-yash.streamlit.app/  
+
 
 ---
 
