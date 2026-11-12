@@ -1,12 +1,15 @@
 # 🌸 Task 1: Iris Flower Classification
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dvdschj8gh2frlg2ndrjjt.streamlit.app/)  
+🌐 **Live Web Application:** [https://dvdschj8gh2frlg2ndrjjt.streamlit.app/](https://dvdschj8gh2frlg2ndrjjt.streamlit.app/)
+
 **Oasis Infobyte — SIP (Student Internship Program)**  
 * **Intern Name:** Yash Devidas Chaudhari  
 * **Track:** Data Science  
 * **Offer Letter ID:** OIB/N2/IP5780  
 * **Repository:** `OIBSIP`  
-* **Folder Name:** `DataScience-Task1-IrisFlowerClassification`
-* **Live link:** https://dvdschj8gh2frlg2ndrjjt.streamlit.app/
+* **Folder Name:** `DataScience-Task1-IrisFlowerClassification`  
+* **Live Demo:** [https://dvdschj8gh2frlg2ndrjjt.streamlit.app/](https://dvdschj8gh2frlg2ndrjjt.streamlit.app/)
 
 ---
 

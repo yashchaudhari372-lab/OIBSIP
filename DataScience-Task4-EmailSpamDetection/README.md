@@ -1,5 +1,8 @@
 # 📧 Task 4: Email Spam Detection with Machine Learning
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://oibsip-spam-detection-yash.streamlit.app)  
+🌐 **Live Web Application:** [https://oibsip-spam-detection-yash.streamlit.app](https://oibsip-spam-detection-yash.streamlit.app)
+
 **Oasis Infobyte — SIP (Student Internship Program)**  
 * **Intern Name:** Yash Devidas Chaudhari  
 * **Track:** Data Science  
