@@ -14,6 +14,7 @@
 | :---: | :--- | :---: | :--- | :---: | :---: |
 | **Task 1** | [Iris Flower Classification](./DataScience-Task1-IrisFlowerClassification) | Machine Learning (Classification) | Python, Scikit-Learn, Pandas, Seaborn, Streamlit | ✅ Completed | [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dvdschj8gh2frlg2ndrjjt.streamlit.app/) [Live Demo](https://dvdschj8gh2frlg2ndrjjt.streamlit.app/) |
 | **Task 4** | [Email Spam Detection](./DataScience-Task4-EmailSpamDetection) | Natural Language Processing (NLP) | Python, NLTK, TF-IDF, Naive Bayes, Streamlit | ✅ Completed | [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://oibsip-spam-detection-yash.streamlit.app/) [Live Demo](https://oibsip-spam-detection-yash.streamlit.app/) |
+| **Task 5** | [Sales Prediction Using Python](./DataScience-Task5-SalesPrediction) | Machine Learning (Regression) | Python, Scikit-Learn, Pandas, Seaborn, Streamlit | ✅ Completed | [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://oibsip-sales-prediction-yash.streamlit.app) [Live Demo](https://oibsip-sales-prediction-yash.streamlit.app) |
 
 ---
 
@@ -30,6 +31,13 @@ OIBSIP/
 │   ├── README.md
 │   ├── spam.csv
 │   ├── spam_detection.ipynb
+│   ├── train_and_predict.py
+│   ├── app.py
+│   └── images/
+├── DataScience-Task5-SalesPrediction/
+│   ├── README.md
+│   ├── Advertising.csv
+│   ├── sales_prediction.ipynb
 │   ├── train_and_predict.py
 │   ├── app.py
 │   └── images/
