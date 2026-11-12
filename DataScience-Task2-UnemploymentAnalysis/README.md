@@ -9,7 +9,7 @@
 * **Offer Letter ID:** OIB/N2/IP5780  
 * **Repository:** `OIBSIP`  
 * **Folder Name:** `DataScience-Task2-UnemploymentAnalysis`  
-* **Live Link:** https://oibsip-unemployment-analysis-yash.streamlit.app/  
+
 
 ---
 
