@@ -4,7 +4,7 @@
 * **Intern Name:** Yash Devidas Chaudhari  
 * **Assigned Track:** Data Science  
 * **Offer Letter ID:** OIB/N2/IP5780  
-* **Organization:** [Oasis Infobyte](https://oasisinfobyte.com/)  .
+* **Organization:** [Oasis Infobyte](https://oasisinfobyte.com/)  
 
 ---
 
