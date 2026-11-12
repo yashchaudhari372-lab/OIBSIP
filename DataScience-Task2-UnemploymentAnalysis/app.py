@@ -24,14 +24,15 @@ def load_data():
     
     df = pd.read_csv(csv_path)
     df.columns = [c.strip() for c in df.columns]
-    df.rename(columns={
+    rename_dict = {
         'Region': 'State',
         'Region.1': 'Zone',
         'Estimated Unemployment Rate (%)': 'Unemployment_Rate',
         'Estimated Employed': 'Employed',
         'Estimated Labour Participation Rate (%)': 'Labour_Participation_Rate'
-    }, inplace=True)
-    df['Date'] = pd.to_datetime(df['Date'].str.strip(), format='%d-%m-%Y', errors='coerce')
+    }
+    df.rename(columns={k: v for k, v in rename_dict.items() if k in df.columns}, inplace=True)
+    df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     df.dropna(subset=['Date', 'Unemployment_Rate'], inplace=True)
     return df
 
@@ -39,8 +40,9 @@ df = load_data()
 
 # Sidebar filters
 st.sidebar.header("🔍 Filters")
-all_states = sorted(df['State'].unique().tolist())
-selected_states = st.sidebar.multiselect("Select States for Comparison", all_states, default=['Maharashtra', 'Delhi', 'Tamil Nadu', 'Uttar Pradesh'])
+all_states = sorted(df['State'].dropna().unique().tolist())
+default_states = [s for s in ['Maharashtra', 'Delhi', 'Tamil Nadu', 'Uttar Pradesh'] if s in all_states]
+selected_states = st.sidebar.multiselect("Select States for Comparison", all_states, default=default_states)
 
 all_zones = sorted(df['Zone'].unique().tolist())
 selected_zone = st.sidebar.selectbox("Filter by Zone", ["All Zones"] + all_zones)

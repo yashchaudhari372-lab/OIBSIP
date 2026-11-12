@@ -25,15 +25,15 @@ def main():
         
     df = pd.read_csv(csv_path)
     df.columns = [c.strip() for c in df.columns]
-    df.rename(columns={
+    rename_dict = {
         'Region': 'State',
         'Region.1': 'Zone',
         'Estimated Unemployment Rate (%)': 'Unemployment_Rate',
         'Estimated Employed': 'Employed',
         'Estimated Labour Participation Rate (%)': 'Labour_Participation_Rate'
-    }, inplace=True)
-    
-    df['Date'] = pd.to_datetime(df['Date'].str.strip(), format='%d-%m-%Y', errors='coerce')
+    }
+    df.rename(columns={k: v for k, v in rename_dict.items() if k in df.columns}, inplace=True)
+    df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     df.dropna(subset=['Date', 'Unemployment_Rate'], inplace=True)
     
     print(f"\n[1/5] Loaded Dataset: {df.shape[0]} records across {df['State'].nunique()} Indian States/UTs")
