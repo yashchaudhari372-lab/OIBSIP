@@ -6,7 +6,7 @@
 * **Offer Letter ID:** OIB/N2/IP5780  
 * **Repository:** `OIBSIP`  
 * **Folder Name:** `DataScience-Task1-IrisFlowerClassification`
-* **Live link:** https://dvdschj8gh2frlg2ndrjjt.streamlit.app/  
+* **Live link:** `https://dvdschj8gh2frlg2ndrjjt.streamlit.app/`
 
 ---
 
