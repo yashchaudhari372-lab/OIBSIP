@@ -9,7 +9,7 @@
 * **Offer Letter ID:** OIB/N2/IP5780  
 * **Repository:** `OIBSIP`  
 * **Folder Name:** `DataScience-Task3-CarPricePrediction`  
-* **Live Link:** https://oibsip-car-price-prediction-yash.streamlit.app/  
+
 
 ---
 
